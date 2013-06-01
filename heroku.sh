@@ -10,7 +10,9 @@ chmod a+x lasamaritan.py
 chmod a+x sessionDAO.py
 chmod a+x userDAO.py
 
-echo 'web: app.py' > Procfile
+echo 'web: lasamaritan.py' > Procfile
+echo 'web: sessionDAO.py' > Procfile
+echo 'web: userDAO.py' > Procfile
 echo 'env/' > .gitignore
 
 git init
