@@ -138,7 +138,7 @@ connection_string = "mongodb://localhost"
 connection = pymongo.MongoClient(connection_string)
 database = connection.lasamaritan
 
-needs = needPostDAO(database)
+needs = needPostDAO.NeedPostDAO(database)
 users = userDAO.UserDAO(database)
 sessions = sessionDAO.SessionDAO(database)
 
