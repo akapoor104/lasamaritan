@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" name="Default" comment="Added updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/needPostDAO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku.sh" afterPath="$PROJECT_DIR$/heroku.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lasamaritan.py" afterPath="$PROJECT_DIR$/lasamaritan.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userDAO.py" afterPath="$PROJECT_DIR$/userDAO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/needPostDAO.py" afterPath="$PROJECT_DIR$/needPostDAO.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lasamaritan.iws" />
@@ -15,7 +12,7 @@
     <file path="/a.dummy" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370123932532" ignored="false" />
     <file path="/lasamaritan.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152188238" ignored="false" />
     <file path="/heroku.sh" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370127160545" ignored="false" />
-    <file path="/Dummy.txt" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370154523861" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370154599844" ignored="false" />
     <file path="/needPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370154476031" ignored="false" />
     <file path="$USER_HOME$/Downloads/mongodb-osx-x86_64-2.4.1/mongo_class/final/final-exam-q4/blogPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152727110" ignored="false" />
     <file path="/blogPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152724916" ignored="false" />
@@ -38,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lasamaritan.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lasamaritan.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lasamaritan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.5933735">
+            <state line="140" column="29" selection-start="4132" selection-end="4132" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#2#16#0" expanded="true" />
               </folding>
@@ -49,12 +46,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="needPostDAO.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="needPostDAO.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/needPostDAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="57" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+            <state line="36" column="38" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.813253">
               <folding>
-                <element signature="e#29#39#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,14 +78,14 @@
         <option value="$PROJECT_DIR$/userDAO.py" />
         <option value="$PROJECT_DIR$/heroku.sh" />
         <option value="$PROJECT_DIR$/sessionDAO.py" />
-        <option value="$PROJECT_DIR$/needPostDAO.py" />
         <option value="$PROJECT_DIR$/lasamaritan.py" />
+        <option value="$PROJECT_DIR$/needPostDAO.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="967" />
-    <option name="y" value="86" />
+    <option name="x" value="164" />
+    <option name="y" value="22" />
     <option name="width" value="914" />
     <option name="height" value="825" />
   </component>
@@ -249,14 +246,18 @@
       <created>1370128908119</created>
       <updated>1370128908119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added updates">
+      <created>1370154579859</created>
+      <updated>1370154579859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="967" y="86" width="914" height="825" extended-state="0" />
+    <frame x="164" y="22" width="914" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -268,7 +269,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546083" sideWeight="0.9985816" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546083" sideWeight="0.670922" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -320,7 +321,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added validate_signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added updates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -335,6 +336,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added validate_signup" />
+    <MESSAGE value="Added updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -372,20 +374,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/needPostDAO.py">
+    <entry file="file://$PROJECT_DIR$/lasamaritan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+        <state line="140" column="29" selection-start="4132" selection-end="4132" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#29#39#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lasamaritan.py">
+    <entry file="file://$PROJECT_DIR$/needPostDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.5933735">
+        <state line="36" column="38" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.813253">
           <folding>
-            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
