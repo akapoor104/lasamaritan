@@ -2,6 +2,7 @@
 
 import pymongo
 import sessionDAO
+import needPostDAO
 import userDAO
 import bottle
 import cgi
@@ -25,15 +26,85 @@ def process_signup():
         if not users.add_user(username, password, email):
             # this was a duplicate
             errors['username_error'] = "Username already in use. Please choose another"
-            return errors['username_error']
+            return errors
 
         session_id = sessions.start_session(username)
         print session_id
         bottle.response.set_cookie("session", session_id)
-        return 'Ok'
+        return bottle.redirect("/welcome")
     else:
         print "user did not validate"
-        return 'Please sign up'
+        return errors
+
+@bottle.get("/welcome")
+def present_welcome():
+    cookie = bottle.request.get_cookie("session")
+    username = sessions.get_username(cookie)
+    if username is None:
+        print "Welcome: can't identify User...redirecting to signup"
+        bottle.redirect("/signup")
+
+    welcome = {'username': username}
+    return welcome
+
+@bottle.get('/internal_error')
+@bottle.view('error_template')
+def present_internal_error():
+    return {'error' : "System has encountered a DB error"}
+
+
+@bottle.get('/logout')
+def process_logout():
+    cookie = bottle.request.get_cookie("session")
+    sessions.end_session(cookie)
+    bottle.response.set_cookie("session", "")
+    bottle.redirect("signup")
+
+@bottle.post('/newneed')
+def post_new_need():
+    cookie = bottle.request.get_cookie("session")
+    requestor = sessions.get_username(cookie)
+    recipient = bottle.request.forms.get("recipient")
+    forwhen = bottle.request.forms.get("forwhen")
+    skills_requested = bottle.request.forms.get("skillsetrequested")
+    location = bottle.request.forms.get("location")
+
+    skill_sets = cgi.escape(skills_requested)
+    skill_set_array = extract_skill_set(skill_sets)
+    id = needs.insert_need(requestor, recipient, forwhen, skill_set_array, location)
+
+    bottle.redirect("/need/" + id)
+
+@bottle.get("/need/<id>")
+def show_need(permalink="notfound"):
+    cookie = bottle.request.get_cookie("session")
+    username = sessions.get_username(cookie)
+    permalink = cgi.escape(id)
+
+    need = needs.get_need_by_permalink(id)
+
+    if need is None:
+        bottle.redirect("/need_not_found")
+
+    return need
+
+
+
+# Helper functions
+
+def extract_skill_set(skill_sets):
+    whitespace = re.compile('\s')
+
+    nowhite = whitespace.sub("",skill_sets)
+    skill_sets_array = nowhite.split(',')
+
+    # let's clean it up
+    cleaned = []
+    for skill in skill_sets_array:
+        if skill not in cleaned and skill != "":
+            cleaned.append(skill)
+
+    return cleaned
 
 # validates that the user information is valid for new signup, return True of False
 # and fills in the error string if there is an issue
@@ -63,14 +134,15 @@ def validate_signup(username, password, verify, email, errors):
             return False
     return True
 
-connection_string = "mongodb://<user>:<password>@linus.mongohq.com:10074/app16048987"
+connection_string = "mongodb://localhost"
 connection = pymongo.MongoClient(connection_string)
-database = connection.app16048987
+database = connection.lasamaritan
 
+needs = needPostDAO(database)
 users = userDAO.UserDAO(database)
 sessions = sessionDAO.SessionDAO(database)
 
 
 bottle.debug(True)
-bottle.run(host='linus.mongohq.com', port=10074)         # Start the webserver running and wait for requests
+bottle.run(host='ec2-54-224-222-165.compute-1.amazonaws.com', port=8082)         # Start the webserver running and wait for requests
 

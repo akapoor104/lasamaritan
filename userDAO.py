@@ -58,6 +58,48 @@ class UserDAO:
 
 
     # creates a new user in the users collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     def add_user(self, username, password, email):
         password_hash = self.make_pw_hash(password)
 

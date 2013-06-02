@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" name="Default" comment="">
+    <list default="true" id="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" name="Default" comment="Added updates">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/needPostDAO.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku.sh" afterPath="$PROJECT_DIR$/heroku.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lasamaritan.py" afterPath="$PROJECT_DIR$/lasamaritan.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userDAO.py" afterPath="$PROJECT_DIR$/userDAO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lasamaritan.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/userDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370123481852" ignored="false" />
     <file path="$USER_HOME$/Downloads/mongodb-osx-x86_64-2.4.1/mongo_class/final/final-exam-q4/userDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370123485579" ignored="false" />
     <file path="/a.dummy" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370123932532" ignored="false" />
-    <file path="/lasamaritan.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370127474795" ignored="false" />
+    <file path="/lasamaritan.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152188238" ignored="false" />
     <file path="/heroku.sh" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370127160545" ignored="false" />
-    <file path="/Dummy.txt" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370128906470" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370154523861" ignored="false" />
+    <file path="/needPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370154476031" ignored="false" />
+    <file path="$USER_HOME$/Downloads/mongodb-osx-x86_64-2.4.1/mongo_class/final/final-exam-q4/blogPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152727110" ignored="false" />
+    <file path="/blogPostDAO.py" changelist="9e7d423f-c6c8-4013-aba2-f52ab3c06a52" time="1370152724916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="userDAO.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userDAO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="48" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lasamaritan.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lasamaritan.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lasamaritan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="29" selection-start="583" selection-end="583" vertical-scroll-proportion="-1.1923077">
+            <state line="136" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.5933735">
               <folding>
                 <element signature="e#2#16#0" expanded="true" />
               </folding>
@@ -53,21 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heroku.sh" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/heroku.sh">
+      <file leaf-file-name="needPostDAO.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/needPostDAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="433" selection-end="433" vertical-scroll-proportion="0.35598704">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sessionDAO.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessionDAO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+            <state line="28" column="57" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#28#38#0" expanded="true" />
+                <element signature="e#29#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,18 +78,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sessionDAO.py" />
         <option value="$PROJECT_DIR$/userDAO.py" />
-        <option value="$PROJECT_DIR$/lasamaritan.py" />
         <option value="$PROJECT_DIR$/heroku.sh" />
+        <option value="$PROJECT_DIR$/sessionDAO.py" />
+        <option value="$PROJECT_DIR$/needPostDAO.py" />
+        <option value="$PROJECT_DIR$/lasamaritan.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="70" />
-    <option name="width" value="1340" />
-    <option name="height" value="1075" />
+    <option name="x" value="967" />
+    <option name="y" value="86" />
+    <option name="width" value="914" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -265,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="70" width="1340" height="1075" extended-state="0" />
+    <frame x="967" y="86" width="914" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,7 +268,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546083" sideWeight="0.9985816" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -352,37 +340,53 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/heroku.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="448" selection-end="448" vertical-scroll-proportion="0.8197932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.35155097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sessionDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+        <state line="22" column="12" selection-start="556" selection-end="556" vertical-scroll-proportion="0.49698794">
           <folding>
             <element signature="e#28#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lasamaritan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="583" selection-end="583" vertical-scroll-proportion="-1.1923077">
-          <folding>
-            <element signature="e#2#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="48" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+        <state line="101" column="0" selection-start="1497" selection-end="1497" vertical-scroll-proportion="2.237814">
           <folding>
             <element signature="e#2#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroku.sh">
+    <entry file="file://$PROJECT_DIR$/needPostDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="433" selection-end="433" vertical-scroll-proportion="0.35598704">
-          <folding />
+        <state line="28" column="57" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#29#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lasamaritan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="3974" selection-end="3974" vertical-scroll-proportion="0.5933735">
+          <folding>
+            <element signature="e#2#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
